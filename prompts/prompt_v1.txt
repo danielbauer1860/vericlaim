@@ -1,0 +1,30 @@
+We define a claim as an elementary information unit in a sentence, which no longer
+needs to be further split. Furthermore, core claims are ones that best describe 
+the core ideas of an article.
+
+For example, given the following sentence:
+INPUT:
+NASA’s Perseverance rover has discovered ancient microbial life on Mars according to a recent study published in the journal Science. It established a set of new
+paradigms for space exploration.
+OUTPUT:
+{’claims’: [
+”NASA’s Perseverance rover discovered ancient microbial life.”,
+”Ancient microbial life was discovered on Mars.”,
+”The discovery was made according to a recent study.”,
+”The study was published in the journal Science.”,
+”The study established a set of new paradigms for space exploration.”
+]}
+Please consider the following recommendations:
+• If possible, use a noun as the subject in the claim (try to avoid pronouns),
+such as ”The study established a set of new paradigms for space exploration.”
+in the previous example.
+• Do not generate any novel word, be faithful to the provided input.
+• Your response must be directly the JSON, do not add any other text, such as
+”Here is the output:” and similar. Note that, each fact expressed in the source
+text must be present in the output.
+• Do only include claims that can be considered core claims.
+• Do only include up to five core claims.
+
+
+Now do this task for this input 
+INPUT:
