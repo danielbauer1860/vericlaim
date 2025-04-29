@@ -54,7 +54,7 @@ in the previous example.
 • Your response must be directly the JSON, do not add any other text, such as
 ”Here is the output:” and similar. Note that, each fact expressed in the source
 text must be present in the output.
-• Make sure that the JSON is properly formatted, especially with correct types of braces
+• Make sure that the JSON is properly formatted, especially with correct types of braces and brackets
 • For the total article, consider the total amount of sentences as indicted by the indices and add it in article_length
 
 

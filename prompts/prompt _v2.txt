@@ -103,7 +103,7 @@ OUTPUT:
         "position": 15
     },
     {
-        "claim": "The report revealed that a Democrat staffer on a congressional committee identified two members of Congress and several Democrat staffers as potential leakers of classified information.",
+        "claim": "The report revealed that a Democrat staffer on a congressional ... committee identified two members of Congress and several Democrat staffers as potential leakers of classified information.",
         "headline": 0,
         "position": 40
     },
