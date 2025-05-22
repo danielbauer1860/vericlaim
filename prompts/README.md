@@ -5,7 +5,7 @@ Due to the issues laid out in section 3 of the thesis, he prompt adopted from Sc
 - **v1: Appending a definition of "core claims"**  
   Adding instructions to limit the number of extracted claims to a maximum of five and to only include claims that can be considered core claims.
 
-v2. **v2: Changing the original example input-output pair**  
+- **v2: Changing the original example input-output pair**  
   Modifying it to be a news article and its respective core claims. Adding further instructions to obtain information on whether a claim was made in the headline and to specify the token position of where a claim was made in the original article alongside the total token count.
 
 - **Assigning an ID to each sentence in an article**  
